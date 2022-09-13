@@ -1,0 +1,471 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1501696461415-6bd6660c6742?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80) ;
+    width: auto;
+    background-size: cover;
+    height: 100%;
+    color: white;
+}
+
+.navbar {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.nameTitle {
+    font-weight: bolder;
+    font-size: 6.25rem;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: rgb(255, 255, 255) solid 2px;
+    color: white;
+    font-family: 'Tinos', serif;
+}
+
+#home {
+    color: white;
+    font-weight: bold;
+}
+
+.homepageImage {
+    opacity: 1;
+    border: 3px black solid;
+    border-radius: 10px;
+    margin-top: 2rem; 
+}
+
+.humanBeing {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.intro {
+    margin-top: 1rem; 
+}
+
+.leftIntro {
+    width: 48rem;
+    height: 39rem;
+    padding: 5px; 
+}
+
+.borderIntro {
+    margin-left: 2rem;
+}
+
+.titleIntro {
+    text-align: center;
+    padding: 5px; 
+    margin-top: 2rem; 
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    border: 3px solid yellow;
+    border-radius: 20px;
+}
+
+.homepage {
+    border: 2px solid rgb(255, 255, 255);
+    height: 38rem;
+    width: 90vw;
+    background-color: white;
+    opacity: 0.90;
+    margin-left: 2.5rem;
+    border-radius: 1rem;
+}
+.homepageDescription {
+    width: auto;
+    padding: 5px;
+    margin-top: 2rem; 
+    margin-left: 3rem;
+    color: rgb(0, 141, 201);
+    height: auto;
+    padding: 2rem;
+    border-radius: 20px; 
+}
+
+ .contactme {
+    font-weight: bolder;
+    font-size: 6.25rem;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    border: rgb(255, 255, 255) solid 2px;
+    color: white;
+    font-family: 'Tinos', serif;
+ }
+
+ .contactdetails {
+     position: relative;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     justify-content: space-around;
+     align-items: stretch;
+     text-align: center;
+     width: 100vw;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 2rem;
+     padding-bottom: 2.5rem;
+     height: auto;
+ }
+
+ .contactdetails div {
+     width: 17vw;
+     border-radius: 30px;
+     white-space: nowrap;
+     border: 1px rgb(255, 255, 255) solid;
+     background-color: white;
+     opacity: 0.8;
+     line-height: 2rem;
+     padding-top: 1.2rem;
+     cursor: pointer;
+ }
+
+ #mail {
+     line-height: 1.3rem;
+ }
+
+ @media screen and (max-width: 850px) {
+     .contactdetails div {
+     border-radius: 0.5rem;
+ }
+}
+
+.ctext {
+    position: relative;
+    white-space: nowrap;
+    min-width: 15vw;
+    font-size: 2vw;
+    font-family: 'Tinos', serif;
+    color: rgb(13, 66, 146);
+    font-weight: bold;
+
+}
+
+.contactdetails img {
+    position: relative;
+    width: 10vw;
+}
+
+.link {
+    position: relative;
+    margin-right: auto;
+    margin-top: 10px;
+    transition: transform 0.5s ease;
+    white-space: nowrap;
+    margin-left: auto;
+    font-size: 1.5vw;
+    font-family: 'Tinos', serif;
+    font-weight: bold;
+}
+
+.contactbox:hover {
+    transform: scale(1.5);
+    border-radius: 0.3rem;
+    text-decoration: none;
+    z-index: 1;
+    transition: 0.75s ease-in;
+} 
+
+.certificateTitle {
+      font-weight: bolder;
+      font-size: 6.25rem;
+      text-align: center;
+      margin-top: 25px;
+      margin-bottom: 25px;
+      font-family: 'Tinos', serif;
+      color: white;
+      border: rgb(255, 255, 255) solid 2px;
+}
+
+img.codecademyLogo {
+      height: 7.82rem;
+      width: 25rem;
+      margin-left: 100px;
+}
+
+img.udemyLogo {
+    height: 7.82rem;
+    width: 25rem;
+    margin-left: 100px;
+}
+.codacademyCertificate {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.udemyCertificate {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.big:hover {
+    position: relative;
+    transform:  scale(2);
+    transition: all 1s ease-in-out;
+    border-radius: 1rem;
+}
+
+.cvPages {
+    width: 80%;
+    height: auto;
+    margin-left: 100px;
+}
+
+.bigP1:hover {
+    position: relative;
+    transform:  scale(1.2);
+    transition: all 1s ease-in-out;
+    border-radius: 1rem;
+}
+
+.curriculumTitle {
+    font-weight: bolder;
+    font-size: 6.25rem;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: rgb(255, 255, 255) solid 2px;
+    color: white;
+    font-family: 'Tinos', serif;
+}
+
+.certificates {
+    border: 2px black solid;
+    padding-bottom: 40px;
+    width: 20rem;
+    margin: 0 0 40px 40px;  
+    border-radius: 5px;
+}
+
+.contactSoon {
+    border: 2px black solid;
+    padding-bottom: 40px;
+    width: 20rem;
+    margin: 0 0 40px 40px;
+    border-radius: 5px;
+}
+
+#contactSoon {
+    font-weight: bolder;
+    margin: 40px 0 10px 60px; 
+}
+
+.myButtonC {
+	box-shadow:inset 0px 1px 0px 0px #caefab;
+	background:linear-gradient(to bottom, #77d42a 5%, #5cb811 100%);
+	background-color:#77d42a;
+	border-radius:6px;
+	border:1px solid #268a16;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #aade7c;
+    margin-left: 85px;
+}
+.myButtonC:hover {
+	background:linear-gradient(to bottom, #5cb811 5%, #77d42a 100%);
+	background-color:#5cb811;
+}
+.myButtonC:active {
+	position:relative;
+	top: 1px;
+}
+
+.myProjectsTitle {
+    font-weight: bolder;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: rgb(255, 255, 255);
+    border: rgb(255, 255, 255) solid 2px;
+    font-family: 'Tinos', serif;
+}
+
+.projectsColor {
+    color: black;
+}
+
+.quizTime{
+    height: 17.18rem;
+}
+
+.calculator {
+    height: 17.18rem;
+}
+
+.pwGenerator{
+    height: 18.75rem;
+}
+
+.countdown {
+    height: 18.75rem;
+}
+
+.quizImg {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 13.75rem;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/003/206/208/original/quiz-time-neon-signs-style-text-free-vector.jpg) ;
+    background-size: 90%;
+    float: left;
+    padding: 10px;
+    margin-left: 2rem;
+}
+
+.calcImg {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 13.75rem;
+    background-image: url(https://thumbs.dreamstime.com/b/sfondo-numeri-sparsi-per-dei-lo-o-l-utilizzo-con-layout-di-progettazione-la-creazione-contenuti-166001352.jpg) ;
+    background-size: 100%;
+    float: left;
+    padding: 20px;
+    margin-left: 2rem;
+}
+.pwImg {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 13.75rem;
+    background-image: url(https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2022/05/05/16517403690559.jpg) ;
+    background-size: 75vh;
+    float: left;
+    padding: 20px;
+    margin-left: 2rem;
+}
+.countImg {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 13.75rem;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrL6-jXtCyt-gRHrzLowFH3hRm0uue_dOQoQ&usqp=CAU) ;
+    background-size: 100%;
+    float: left;
+    padding: 20px;
+    margin-left: 2rem;
+}
+
+.quizDesc {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 13.75rem;
+    width: 50%;
+    float: left;
+    padding: 25px;
+    background-color: white;
+} 
+
+.calcDesc{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 13.75rem;
+    width: 50%;
+    float: left;
+    padding: 25px;
+    background-color: white;
+}
+
+.pwDesc {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 13.75rem;
+    width: 50%;
+    float: left;
+    padding: 25px;
+    background-color: white;
+}
+
+.countDesc {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 13.75rem;
+    width: 50%;
+    float: left;
+    padding: 25px;
+    background-color: white;
+}
+.projectsTitle {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.projectDesc {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.myButtonProjects {
+	box-shadow:inset 0px 1px 0px 0px #a4e271;
+	background:linear-gradient(to bottom, #89c403 5%, #77a809 100%);
+	background-color:#89c403;
+	border-radius: 6px;
+	border: 1px solid #74b807;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size: 1rem;
+	font-weight:bold;
+	padding: 6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528009;
+    margin-left: 35px;
+    margin-top: 5px;
+}
+.myButtonProjects:hover {
+	background:linear-gradient(to bottom, #77a809 5%, #89c403 100%);
+	background-color:#77a809;
+}
+.myButtonProjects:active {
+	position:relative;
+	top: 1px;
+}
+
+.certificateItems {
+    width: 25rem;
+    height: 15.5rem;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+
+.nav-menu {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+    text-align: center;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+
+.nav-link {
+    border: 1px solid rgb(137, 174, 255);
+    width: 15vw;
+    margin-right: 1rem;
+    border-radius: 5px;
+    white-space: nowrap;
+    background-color: #dbf2ff;
+    cursor: pointer;
+    font-family: 'Tinos', serif;
+}
+
+.navbar-brand:hover {
+    color: red;
+}
+
+.nav-link:hover {
+    color: red;
+}

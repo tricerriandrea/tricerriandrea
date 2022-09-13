@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/andreawebsite/static/css/main.e59d3d46.css",
+    "main.js": "/andreawebsite/static/js/main.cc001de1.js",
+    "static/js/787.2df9dbc8.chunk.js": "/andreawebsite/static/js/787.2df9dbc8.chunk.js",
+    "index.html": "/andreawebsite/index.html",
+    "main.e59d3d46.css.map": "/andreawebsite/static/css/main.e59d3d46.css.map",
+    "main.cc001de1.js.map": "/andreawebsite/static/js/main.cc001de1.js.map",
+    "787.2df9dbc8.chunk.js.map": "/andreawebsite/static/js/787.2df9dbc8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e59d3d46.css",
+    "static/js/main.cc001de1.js"
+  ]
+}
